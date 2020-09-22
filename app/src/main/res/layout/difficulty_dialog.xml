@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:id="@+id/difficulty_dialog"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/choosePuzzleSize"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorblack">
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/difficult_3x3"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/lvl_3x3"
+        android:background="@drawable/button_frame">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/difficult_4x4"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/lvl_4x4"
+        android:background="@drawable/button_frame">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/difficult_5x5"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/lvl_5x5"
+        android:background="@drawable/button_frame">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/difficult_6x6"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/lvl_6x6"
+        android:background="@drawable/button_frame">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/difficult_7x7"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/lvl_7x7"
+        android:background="@drawable/button_frame">
+
+    </Button>
+</LinearLayout>

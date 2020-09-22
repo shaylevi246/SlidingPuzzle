@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">My Sliding Puzzle</string>
+    <string name="choosePuzzleSize">CHOOSE PUZZLE SIZE</string>
+    <string name="choosePuzzle">CHOOSE YOUR PUZZLE IMAGE</string>
+    <string name="difficulty">DIFFICULTY</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="play">PLAY</string>
+    <string name="options">OPTIONS</string>
+    <string name="shuffle">SHUFFLE</string>
+    <string name="steps_number">NUMBER OF STEPS</string>
+    <string name="best_record">BEST RECORD</string>
+    <string name="wrong_move">Sorry, you cannot move this piece</string>
+    <string name="delete_confirmation">Are you sure that you want to remove this picture?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="delete_cancel">Picture will not be removed</string>
+    <string name="cannot_remove">Sorry, this picture cannot be removed</string>
+    <string name="picture_removed">picture was successfully removed</string>
+    <string name="cannot_continue">Sorry, in order to continue, you have to select an image</string>
+    <string name="restart">Your current game state will be lost, are you sure you want to continue?</string>
+    <string name="continue_state">Game resumed</string>
+    <string name="return_main">Return to main screen</string>
+    <string name="instruction_lower">Instructions</string>
+    <string name="dialog_choose">Choose your puzzle</string>
+    <string name="dialog_difficulty">Select difficulty level</string>
+    <string name="dialog_play">Push on the PLAY button</string>
+    <string name="dialog_shuffle">Push on the SHUFFLE button</string>
+    <string name="dialog_ready">Now you are ready to play</string>
+    <string name="dialog_6">Push on one of the tiles that is the closest to the empty tile in order to switch their positions</string>
+    <string name="dialog_7">Continue to switch between the tiles until the completion of the original image</string>
+    <string name="dialog_8">Once you complete the challenge, you may start again by pushing on the REFRESH button or on the OPTIONS button to go back to main screen</string>
+    <string name="dialog_have_fun">Have Fun</string>
+    <string name="dialog_back">BACK</string>
+    <string name="dialog_game_instructions">Game Instructions</string>
+    <string name="sounds_on">Sound Effects: ON</string>
+    <string name="sounds_off">Sound Effects: OFF</string>
+    <string name="music_on">Music: ON</string>
+    <string name="music_off">Music: OFF</string>
+    <string name="permission_not_granted">Sorry, in order to add pictures, access must be granted</string>
+    <string name="step1">Step 1</string>
+    <string name="step2">Step 2</string>
+    <string name="step3">Step 3</string>
+    <string name="step4">Step 4</string>
+    <string name="step5">Step 5</string>
+    <string name="step6">Step 6</string>
+    <string name="step7">Step 7</string>
+    <string name="step8">Step 8</string>
+    <string name="main_page_title" translatable="false">My Sliding</string>
+    <string name="difficult_3x3" translatable="false">3 x 3</string>
+    <string name="difficult_4x4" translatable="false">4 x 4</string>
+    <string name="difficult_5x5" translatable="false">5 x 5</string>
+    <string name="difficult_6x6" translatable="false">6 x 6</string>
+    <string name="difficult_7x7" translatable="false">7 x 7</string>
+
+</resources>

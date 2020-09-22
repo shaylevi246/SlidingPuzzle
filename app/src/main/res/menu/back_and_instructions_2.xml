@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/return_main"
+        android:title="@string/return_main">
+    </item>
+    <item
+        android:id="@+id/instructions_menu"
+        android:title= "@string/instruction_lower">
+    </item>
+    <item
+        android:id="@+id/sound_effects"
+        android:title= "@string/sounds_off">
+    </item>
+    <item
+        android:id="@+id/music"
+        android:title= "@string/music_on">
+    </item>
+
+</menu>

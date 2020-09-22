@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/backColorMain"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_title"
+        android:textColor="@color/colorblack"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:typeface="serif"
+        android:id="@+id/mySlidingText">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/p"
+            android:id="@+id/letP">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/u"
+            android:id="@+id/letU">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/z"
+            android:id="@+id/letZ">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/z"
+            android:id="@+id/letZ2">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/l"
+            android:id="@+id/letL">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/e"
+            android:id="@+id/letE">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/s"
+            android:id="@+id/letS">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choosePuzzle"
+        android:padding="5dp"
+        android:background="@drawable/button_frame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/choosePuzzle">
+
+    </Button>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_below="@id/choosePuzzle"
+        android:scaleType="fitXY"
+        android:id="@+id/chosenImage">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/chosenImage"
+        android:background="@drawable/button_frame"
+        android:id="@+id/secondLin"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/difficulty"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorblack"
+            android:id="@+id/IvDiff">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/colorblack"
+            android:id="@+id/sizeTv">
+
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_frame"
+        android:text="@string/play"
+        android:layout_below="@id/secondLin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/btnPlay">
+
+    </Button>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/arrow_1"
+        android:src="@drawable/arrow"
+        android:layout_toRightOf="@+id/choosePuzzle"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="5dp"
+        android:alpha="0">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/arrow_2"
+        android:src="@drawable/arrow"
+        android:layout_toRightOf="@+id/secondLin"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0"
+        android:layout_below="@id/chosenImage">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/arrow_3"
+        android:src="@drawable/arrow"
+        android:layout_toRightOf="@+id/btnPlay"
+        android:layout_below="@id/secondLin"
+        android:layout_marginTop="50dp"
+        android:alpha="0"
+        android:layout_marginLeft="5dp">
+
+    </ImageView>
+
+
+
+</RelativeLayout>

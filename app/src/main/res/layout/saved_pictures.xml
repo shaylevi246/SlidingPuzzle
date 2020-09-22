@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:id="@+id/backColorSaved"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_frame"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:id="@+id/btnAddPicture">
+
+        </ImageView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="@string/dialog_back"
+            android:background="@drawable/button_frame"
+            android:gravity="center"
+            android:id="@+id/back_mainBtn">
+
+        </Button>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
